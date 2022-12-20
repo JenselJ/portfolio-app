@@ -92,7 +92,7 @@ function LandingPage() {
                       isVisible ? "animate__animated animate__zoomIn" : ""
                     }
                   >
-                    <div className="profile my-12 rounded-lg shadow-lg"></div>
+                    <div className="profile my-12"></div>
                   </div>
                 </div>
               )}

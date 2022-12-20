@@ -22,8 +22,22 @@
   background-position: center;
   background-size: 180px;
   animation: updown 3s linear infinite;
-  opacity: 70%;
+  opacity: 100%;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px 2px #000000a1;
+  /* transform: scale(1);
+  opacity: 60%;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -webkit-transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out, transform 0.3s ease-out; */
 }
+
+/* .profile:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px 2px #000000a1;
+} */
 
 @keyframes updown {
   0% {
