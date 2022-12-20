@@ -1,0 +1,190 @@
+* {
+  font-family: Roboto;
+}
+
+.name {
+  margin-top: 150px;
+  /* text-shadow: 1px 1px 2px black; */
+}
+.flavour-text {
+  max-width: 500px;
+}
+
+.home-div {
+  margin-bottom: 300px;
+}
+
+.profile {
+  height: 150px;
+  width: 150px;
+  background-image: url("./../face.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180px;
+  animation: updown 3s linear infinite;
+  opacity: 70%;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.email {
+  margin-top: 300px;
+}
+
+.body-div {
+  background-image: url("./../pixel-bg.jpeg");
+  background-position: top center;
+  /* animation: move 10s infinite linear; */
+  /* height: 100vh; */
+  background-size: 250px;
+  animation: backgroundScroll 7500s infinite linear;
+  animation-fill-mode: forwards;
+  text-shadow: 2px 2px 5px #d7af19;
+}
+
+.nav-div {
+  background-color: #1c1842;
+  text-shadow: none;
+  opacity: 85%;
+  z-index: 10;
+}
+
+.address {
+  text-shadow: 2px 2px 5px #19d790;
+}
+
+.sign-off {
+  text-shadow: 2px 2px 5px #0f00ff;
+  font-family: sans-serif;
+}
+
+.quiz {
+  background-image: url("./../quiz1.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dot:hover {
+  opacity: 100%;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px 2px #000000a1;
+}
+
+.game {
+  background-image: url("./../game1.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.css {
+  background-image: url("./../css1.png");
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.job {
+  fill: white;
+  height: 100px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.job-div {
+  background-image: url("./../job1.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color: #0012ff;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 10;
+  transform: scale(1);
+  opacity: 60%;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -webkit-transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+@media (max-width: 325px) {
+  .dot {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* .overlay {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 20;
+} */
+
+.dot-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url("./../linkedin.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dot-3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url("./../github.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dot-4 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url("./../arrow-up.png");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes backgroundScroll {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -90000px -30000px;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 100;
+  }
+}
